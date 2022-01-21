@@ -11,5 +11,5 @@ https://github.com/TomXV/PaperMC-Server-Plugins
 #
 Debian/Ubuntu系列で、動作確認済です。
 
-動作しない場合は、動作確認済の環境で実行するか
+うまく動作しない場合は、動作確認済の環境で実行するか
 または、Issueを作成してください。
