@@ -7,3 +7,9 @@
 また、プラグインについては、このリポジトリご御覧ください。
 
 https://github.com/TomXV/PaperMC-Server-Plugins
+
+#
+Debian/Ubuntu系列で、動作確認済です。
+
+動作しない場合は、動作確認済の環境で実行するか
+または、Issueを作成してください。
