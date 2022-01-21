@@ -33,16 +33,18 @@ mkdir plugins
 echo "Created plugins"
 sleep 1
 cd plugins
-echo "Downloading plugins 5/1..."
+echo "Downloading plugins 6/1..."
 wget https://github.com/Lenni0451/SpigotPluginManager/releases/download/2.7.1/PluginManager.jar
-echo "Downloading plugins 5/2..."
+echo "Downloading plugins 6/2..."
 wget https://www.iani.de/jenkins/job/LogBlock/lastSuccessfulBuild/artifact/target/LogBlock.jar
-echo "Downloading plugins 5/3..."
+echo "Downloading plugins 6/3..."
 wget https://github.com/TomXV/PaperMC-Server-Plugins/raw/main/worldedit-bukkit-7.2.8.jar
-echo "Downloading plugins 5/4..."
+echo "Downloading plugins 6/4..."
 wget https://github.com/TomXV/PaperMC-Server-Plugins/raw/main/worldguard-bukkit-7.0.6-dist.jar
-echo "Downloading plugins 5/5..."
+echo "Downloading plugins 6/5..."
 wget https://github.com/TomXV/PaperMC-Server-Plugins/blob/main/craftbook-3.10.5.jar
+echo "Downloading plugins 6/6..."
+wget https://www.spigotmc.org/resources/tabtps-1-8-8-1-18-show-tps-mspt-and-more-in-the-tab-menu.82528/download?version=429490
 echo "Download plugins Done!"
 
 sleep 1
