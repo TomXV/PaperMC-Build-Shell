@@ -1,6 +1,7 @@
 #!/bin/sh
 
 sudo apt update && sudo apt upgrade -y && sudo apt install vim nano wget mariadb-server default-jre openjdk-17-jre -y
+
 echo "Database Server Setting up..."
 
     # mariadb/mysql のパスワードを書き換えてください。
@@ -64,7 +65,7 @@ echo "Created dir plugins"
     sleep 5
 
     echo "Downloading plugins 6/6..."
-    wget https://www.spigotmc.org/resources/tabtps-1-8-8-1-18-show-tps-mspt-and-more-in-the-tab-menu.82528/download?version=429490
+    wget https://github.com/TomXV/PaperMC-Server-Plugins/raw/main/tabtps-spigot-1.3.11.jar
 
     sleep 5
 
@@ -74,13 +75,12 @@ sleep 5
 
 cd ..
 echo "Create a new start.sh"
-    cat << EOF > start.sh
-        java jar paper-1.18.1-167.jar -nogui
-    EOF
+cat << EOF > start.sh
+java -jar paper-1.18.1-167.jar -nogui
+EOF
 
 sudo chmod 777 start.sh
-
-sleep 5
+./start.sh
 
 echo "*****************"
 echo "Program finished!"
